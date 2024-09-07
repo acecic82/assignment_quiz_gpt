@@ -67,6 +67,14 @@ with st().sidebar:
         if chain:
             docs = wiki_search(topic)
 
+    st().write(
+        """
+        
+        Github : https://github.com/acecic82/assignment_quiz_gpt
+
+        """
+    )
+
 if not docs:
     st().markdown(
         """
